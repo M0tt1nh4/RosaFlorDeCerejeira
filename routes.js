@@ -19,8 +19,8 @@ route.get('/', homeController.paginaInicial);
 route.get('/sobre', sobreController.paginaSobre);
 
 //Rota Cadastro
-route.get('/cadastro', cadastroController.pageRegister);
-route.post('/cadastro', cadastroController.register);
+route.get('/cadastro', cadastroController.pageRegister)
+route.post('/cadastro', cadastroController.register)
 
 //Rota Login
 route.get('/login', loginController.paginaLogin)
@@ -37,5 +37,8 @@ route.get('/getJogos', filtrosController.getJogos)
 //Rota conta
 route.get('/minhaconta', minhacontaController.paginaConta)
 route.put('/editarDados', minhacontaController.editarDados)
+
+//Pagina filtro
+route.get('/sobre', sobreController.paginaSobre)
 
 module.exports = route;

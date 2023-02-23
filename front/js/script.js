@@ -6,6 +6,10 @@ function irParaLogin() {
   window.location.assign("./login")
 }
 
+function irParaSobre() {
+  window.location.assign("./sobre")
+}
+
 function irParaConta() {
   document.getElementById("name-div").style.display = 'block'
   document.getElementById("email-div").style.display = 'block'
